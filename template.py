@@ -18,6 +18,7 @@ list_of_files = [
     "artifacts/report/performance_report.json", # artifacts/report directory for performance report
     "logs/trainings_logs.txt", # logs/trainings_logs.txt file
     "logs/predictions_logs.txt", # logs/predictions_logs.txt file
+    "config/config.yaml", # config/config.yaml file
     "params.yaml", # params.yaml file
     "raw_data/.gitkeep", # raw_data directory
     "prediction_file/.gitkeep", # prediction_file
