@@ -1,0 +1,63 @@
+# params:
+artifacts_root: artifacts
+
+
+logs_files:
+  log_dir: logs
+  trainings_logs: logs/trainings_logs.txt
+  predictions_logs: logs/predictions_logs.txt
+
+
+raw_data_source:
+  raw_data_dir: raw_data/
+
+
+data_saveing:
+  root_dir: artifacts/raw_data
+  file_name: artifacts/raw_data/data.csv
+
+
+data_definition:
+  output_col: summary
+  input_col: document
+
+load_data_from_hugging_face:
+  file_name: multi_news
+
+
+data_split:
+  random_state: 42
+  split_ratio: 0.3
+
+
+model_definition:
+  default:
+    model_name: t5-small
+
+
+model_svaing:
+  tokenizer_model:
+    root_dir: artifacts/model/tokenizer
+  
+  summarized_model:
+    root_dir: artifacts/model/summarizer/model
+    logs_dir: artifacts/model/summarizer/logs
+
+
+TrainingArguments:
+  num_train_epochs: 1
+  warmup_steps: 500
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  weight_decay: 0.01
+  logging_steps: 10
+  evaluation_strategy: steps
+  eval_steps: 500
+  save_steps: 1000000 #1e6
+  gradient_accumulation_steps: 16
+
+
+performace_report:
+  root_dir: artifacts/report
+  report_file: artifacts/report/performace_report.json
+
