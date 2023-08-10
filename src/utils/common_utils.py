@@ -1,16 +1,24 @@
 import os
 import shutil
 import json
-import joblib
 import yaml
 
 
 
+    
 def read_params(config_path: str) -> dict:
     """
-        load the params.yaml file to extract the information.\n
-        :param config_path:
-        :return: params info
+    Read the YAML file at the specified path and return its contents as a dictionary.
+
+    Args:
+        config_path (str): The path to the YAML file.
+
+    Returns:
+        dict: The contents of the YAML file as a dictionary.
+
+    Raises:
+        Exception: If there is an error while reading the file.
+
     """
     try:
         with open(config_path) as yaml_file:
@@ -21,11 +29,16 @@ def read_params(config_path: str) -> dict:
         raise e
 
 
+    
 def clean_prev_dirs_if_exis(dir_path: str):
     """
-        This method helps to, if any directory is present previously then remove those directories.\n
-        :param dir_path: directory path
-        :return: remove directory
+    Removes a directory and all its contents if it exists.
+
+    This function takes a directory path as input and checks if the directory exists. If it does, it removes the directory and all its contents using the `shutil.rmtree` function.
+
+    :param dir_path: The path of the directory to be checked and removed.
+    :type dir_path: str
+    :raises: Exception: If any exception occurs during the removal process.
     """
     try:
         if os.path.isdir(dir_path):
@@ -34,11 +47,17 @@ def clean_prev_dirs_if_exis(dir_path: str):
         raise e
 
 
+    
+
 def create_dir(dirs: list):
     """
-         Create the directories based on conditions.\n
-        :param dirs: list_of_directories_names
-        :return: create directory/ directories
+    Create directories based on the provided list of directory names.
+    
+    This function takes a list of directory names as input and creates those directories if they don't already exist.
+    
+    :param dirs: A list of directory names to be created.
+    :type dirs: list
+    :raises Exception: If any exception occurs during the creation of directories.
     """
     try:
         for dir in dirs:
@@ -46,14 +65,22 @@ def create_dir(dirs: list):
     except Exception as e:
         raise e
 
+    
 
 def save_raw_local_df(data, data_path, header=False):
     """
-        save the data to specific folder.\n
-        :param data: data
-        :param data_path: data_path
-        :param header: True or False
-        :return: save data
+    Save a pandas DataFrame to a specific file path.
+
+    Parameters:
+    data (DataFrame): The DataFrame to be saved.
+    data_path (str): The file path where the DataFrame will be saved.
+    header (bool, optional): Whether to include column names as the first row in the saved file. Defaults to False.
+
+    Raises:
+    Exception: If any error occurs during the saving process.
+
+    Returns:
+    None
     """
     try:
         if header:
@@ -65,12 +92,18 @@ def save_raw_local_df(data, data_path, header=False):
         raise e
 
 
-def save_report(file_path: str, report:dict):
+    
+
+def save_report(file_path: str, report: dict):
     """
-         save the model performance report:\n
-        :param file_path: file_path
-        :param report: report.jso
-        :return: params & score info.
+    Save the model performance report to a file in JSON format.
+
+    This function takes a file path and a dictionary as input. It opens the file specified by the file path and appends the dictionary as a JSON object to the file. If an error occurs during the process, it raises an exception.
+
+    :param file_path: The path to the file where the report will be saved.
+    :param report: A dictionary containing the model performance information.
+    :return: None
+    :raises: Exception if an error occurs during the file saving process.
     """
     try:
         with open(file_path, 'a+') as f:
@@ -78,20 +111,6 @@ def save_report(file_path: str, report:dict):
     except Exception as e:
         raise e
 
-
-def save_model(model_name, model_path:str):
-    """
-        save the model in a given directory:
-        :param model: mention model
-        :param model_path: model_path
-        :return: save model
-    """
-    try:
-        with open(model_path, 'wb') as f:
-            joblib.dump(model_name, f)
-
-    except Exception as e:
-        raise e
 
 
 if __name__ == "__main__":
