@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="src",
-    version="v.0.0.1",
+    name="news_short",
+    version="1.0.0",
     author="dibyendubiswas1998",
     author_email="dibyendubiswas1998@gmail.com",
     description="News Short Web App",
