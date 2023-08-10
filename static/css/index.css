@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=PT+Sans&family=Poppins&family=Roboto+Mono:wght@300&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}  
+
+a {
+    text-decoration: none;
+    color: rgb(245, 11, 11);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* nav styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    transition: top 0.3s ease;
+}
+.nav.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation: fadeInDown 1s ease;
+}
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+.nav a, .nav .nav__link a{
+    color: rgb(187, 173, 173);
+}
+.logo {
+    font-size: 1.8rem;
+    padding-left: 20px;
+    color: whitesmoke !important;
+}
+
+.hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.hamburger .line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 8px;
+    background-color: rgb(255, 255, 255);
+}
+.nav__link {
+    position: fixed;
+    width: 100%;
+    top: 15.2%;
+    left: 0px;
+    background-color: rgb(0, 18, 24);
+    animation: fadeInDown 1s ease;
+}
+.nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+.nav__link a:hover {
+    color: rgb(231, 0, 212);   
+}
+.hide {
+    display: none;
+}
+
+/* About Section */
+.content {
+    text-align: left;
+    padding: 55px 100px;
+}  
+h1 {
+    color: #00d2f7;
+}  
+.content p{
+    text-align: justify;
+    word-spacing: 1px;
+    margin-top: 15px;
+}
+.button-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+}
+.button {
+    display: inline-block;
+    padding: 6px 30px;
+    background: linear-gradient(135deg,  #add9f7, #dfa4f7);
+    color: #000000;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 7px;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}  
+.button:hover {
+    background: linear-gradient(-135deg, #94d1fa, #9efca6);
+}
+
+/* Service Section */
+.content-2{
+    text-align: left;
+    padding: 0px 100px;
+}
+
+/* Contact Form*/
+
+.container{
+    margin-top: 10px;
+    background-color: aliceblue;
+    /* max-width: 700px; */
+    width: 100%;
+    padding: 25px 40px;
+    border-radius: 5px;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container form .user-details .input-box{
+    margin: 10px 20px;
+    width: calc(100% / 2 - 20px);
+}
+.container form .input-box label{
+    display: block;
+    font-weight: 550;
+    margin-bottom: 5px;
+}
+.container form .input-box textarea, .container form .input-box input{
+    height: 40px;
+    width: 200%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.container form .input-box textarea{
+    resize:none;
+    height: 200px;
+}
+.container form .input-box textarea:focus,
+.container form .input-box textarea:valid, 
+ .container form .input-box input:focus,
+.container form .input-box input:valid{
+    border-color: #9b59b6;
+}
+form .frm_button{
+    height: 35px;
+    width: 150px;
+    margin: 10px 0px;
+}
+form .frm_button button{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    color: #000000;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(135deg,  #add9f7, #dfa4f7);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 20px;
+}
+form .frm_button button:hover{
+    background: linear-gradient(-135deg, #94d1fa, #9efca6);
+}
+
+/* Footer Section */
+/* Existing styles remain the same */
+.footer {
+    opacity: 1;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+  
+.footer p {
+    margin: 0;
+}
+
+/* Design Scroll-Bar */
+::-webkit-scrollbar {
+    width: 5px; /* Set the width of the scrollbar */
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set the background color of the track (the area behind the scrollbar) */
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #f88af3; /* Set the color of the scrollbar thumb (the draggable part of the scrollbar) */
+    border-radius: 5px; /* Add some border-radius for a rounded thumb */
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change the color of the thumb on hover */
+}
+
+
+
+/* Media Query */
+@media screen and (min-width: 758px){
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+  
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+    }
+  
+    .hamburger {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .content {
+      padding: 20px;
+    }
+  
+    .button-container {
+      flex-wrap: wrap;
+    }
+  
+    .button {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 758px){
+    .container{
+        max-width: 100%;
+    }
+    .container form .user-details .input-box{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .container form .input-box input, .container form .input-box textarea{
+    	width: 100%;
+    }
+    .container form .frm_button{ 
+        width: calc(100% - 40px);
+      }
+}

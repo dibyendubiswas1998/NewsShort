@@ -1,0 +1,42 @@
+
+
+.container .services{
+    padding: 80px 10px;
+}
+.container .services span{
+    color: rgb(1, 136, 41); 
+    font-size: large;
+    font-weight: bolder; 
+    letter-spacing: 1px;
+}
+
+
+
+
+
+@media screen and (max-width: 758px) {
+    .content {
+      padding: 20px;
+    }
+  
+    .button-container {
+      flex-wrap: wrap;
+    }
+  
+    .button {
+      width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .content {
+      padding: 20px;
+    }
+  
+    .button-container {
+      flex-wrap: wrap;
+    }
+  
+    .button {
+      width: 100%;
+    }
+}
