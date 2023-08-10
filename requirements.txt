@@ -1,5 +1,5 @@
 # local_lib
-# -e.
+-e.
 
 # Data Manipulation libraries:
 numpy
@@ -21,8 +21,22 @@ spacy
 
 # tensorflow libraries:
 tensorflow
-transformers
 
+# pytorch:
+torch
+
+# transformers library:
+transformers
+sentencepiece
+transformers[torch]
 
 # Deployment libraries:
 flask
+
+# Others
+datasets
+ensure
+git+https://github.com/huggingface/accelerate
+rouge_score
+
+sendgrid
