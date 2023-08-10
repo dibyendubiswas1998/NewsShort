@@ -7,24 +7,28 @@ logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s")
 # Project Structure:
 project_name = "NewsShort"
 list_of_files = [
-    "main.py", # main.py file
-    "setup.py", # setup.py file
-    "app.py", # app.py file
-    "requirements.txt", # requirements.txt file
     "notebook/.gitkeep", # notebook directory
     "artifacts/.gitkeep", # artifacts directory
     "artifacts/preprocessed_data/.gitkeep", # artifacts/preprocessed_data directory
+
     "artifacts/model/.gitkeep", # artifacts/model directory
+    "artifacts/model/tokenizer", # artifacts/model/tokenizer directory
+    "artifacts/model/summarizer", # artifacts/model/summarizer directory
+    
+
     "artifacts/report/performance_report.json", # artifacts/report directory for performance report
     "logs/trainings_logs.txt", # logs/trainings_logs.txt file
     "logs/predictions_logs.txt", # logs/predictions_logs.txt file
-    "config/config.yaml", # config/config.yaml file
-    "params.yaml", # params.yaml file
+
+    
     "raw_data/.gitkeep", # raw_data directory
     "prediction_file/.gitkeep", # prediction_file
 
     "src/__init__.py", # src package
     "src/utils/__init__.py", # utils package
+    "src/utils/config/__init__.py", # config package
+
+    "src/config/configuration.py", # configuration.py file
 
     "src/utils/common_utils.py", # common_utils.py file
     "src/utils/logging.py", # logging.py file
@@ -32,18 +36,43 @@ list_of_files = [
     "src/load_and_save_data.py", # load_and_save_data.py file
     "src/data_augmentation.py", # data_augmentation.py file
     "src/preprocessor.py", # preprocessor.py file
-    "src/model_creation.py", # model_creation.py file
-    "src/training.py", # training.py file
-    "src/predictions.py", # predictions.py file
+    "src/model_creation_and_training.py", # model_creation_and_training.py file
     "src/evaluation.py", # evaluation.py file
+
     # templates Website
     "templates/index.html",
     "static/css/index.css",
     "static/js/index.js"
+
+    "training.py", # training.py file
+    "predictions.py", # predictions.py file
+
+    "main.py", # main.py file
+    "setup.py", # setup.py file
+    "app.py", # app.py file
+    "requirements.txt", # requirements.txt file
 ]
 
 
 def create_project_template(project_template_lst):
+    """
+    Creates directories and files based on the provided file paths.
+
+    Args:
+        project_template_lst (list): A list of file paths.
+
+    Returns:
+        None
+
+    Raises:
+        OSError: If there is an error creating directories or files.
+        IOError: If there is an error creating directories or files.
+        Exception: If there is an unknown error.
+
+    Example Usage:
+        project_template_lst = ['dir1/file1.txt', 'dir2/file2.txt', 'file3.txt']
+        create_project_template(project_template_lst)
+    """
     try:
         for filepath in project_template_lst:
             filepath = Path(filepath)
