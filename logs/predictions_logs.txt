@@ -1,0 +1,13 @@
+2023-08-10	23:15:35	prediction process is start
+127.0.0.1 - - [10/Aug/2023 23:15:49] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 23:15:49] "[36mGET /static/css/news_summarization.css HTTP/1.1[0m" 304 -
+2023-08-10	23:16:12	successfully predict the sumary
+2023-08-10	23:16:12	successfully predict the sumary
+127.0.0.1 - - [10/Aug/2023 23:16:12] "POST /news_summarizations HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "POST /news_summarizations HTTP/1.1" 200 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "[36mGET /static/css/news_summarization.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "[36mGET /static/css/news_summarization.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "[36mGET /static/js/index.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 23:16:12] "[36mGET /static/css/index.css HTTP/1.1[0m" 304 -

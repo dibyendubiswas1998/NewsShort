@@ -1,0 +1,656 @@
+2023-08-05	18:45:28	Error will be raised: tuner007/pegasus_summarizer does not appear to have a file named tf_model.h5 but there is a file for PyTorch weights. Use `from_pt=True` to load this model from those weights.
+2023-08-05	18:47:34	Error will be raised: tuner007/pegasus_summarizer does not appear to have a file named tf_model.h5 but there is a file for PyTorch weights. Use `from_pt=True` to load this model from those weights.
+
+
+
+2023-08-05	19:09:41	Error will be raised: T5ForConditionalGeneration.__init__() got an unexpected keyword argument 'from_pt'
+2023-08-05	19:11:13	load the model, model name: t5-small
+2023-08-05	19:15:36	load the model, model name: t5-small
+2023-08-05	19:40:19	Error will be raised: Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, ort, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: CPU
+2023-08-05	19:40:55	load the model, model name: t5-small
+2023-08-10	21:09:09	Step 1: load and save process is start
+2023-08-10	21:09:09	error will be: No objects to concatenate
+2023-08-10	21:09:09	error will be: No objects to concatenate
+127.0.0.1 - - [10/Aug/2023 21:09:09] "[35m[1mPOST /model_training HTTP/1.1[0m" 500 -
+127.0.0.1 - - [10/Aug/2023 21:09:09] "[35m[1mPOST /model_training HTTP/1.1[0m" 500 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:09:10] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in 'E:\\Dibyendu\\1. Programs\\1. All Projects\\3. Natural Langauge Processing (NLP)\\2. NewsShort\\NewsShort\\app.py', reloading
+ * Detected change in 'E:\\Dibyendu\\1. Programs\\1. All Projects\\3. Natural Langauge Processing (NLP)\\2. NewsShort\\NewsShort\\app.py', reloading
+2023-08-10	21:11:19	Step 1: load and save process is start
+2023-08-10	21:11:19	error will be: No objects to concatenate
+2023-08-10	21:11:19	error will be: No objects to concatenate
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[35m[1mPOST /model_training HTTP/1.1[0m" 500 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[35m[1mPOST /model_training HTTP/1.1[0m" 500 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [10/Aug/2023 21:11:19] "[36mGET /model_training?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+ * Detected change in 'E:\\Dibyendu\\1. Programs\\1. All Projects\\3. Natural Langauge Processing (NLP)\\2. NewsShort\\NewsShort\\app.py', reloading
+ * Detected change in 'E:\\Dibyendu\\1. Programs\\1. All Projects\\3. Natural Langauge Processing (NLP)\\2. NewsShort\\NewsShort\\app.py', reloading
+2023-08-10	21:45:44	Step 1: load and save process is start
+2023-08-10	21:45:44	successfully read raw_data\part_1.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:44	successfully read raw_data\part_1.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_2.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_2.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_2.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:45	create raw data directory: artifacts/raw_data
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	Step 2: Pre-processing step is start
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	handle the data by using forward-fill method
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:45:46	Separate the X and Y features from data.
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	apply tokenization on X and Y features
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	split the dataset into train, test and validation dataset
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	train data size: 70.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	test data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	validation data size: 15.0%
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:04	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:46:11	load the model, model name: t5-small
+2023-08-10	21:51:29	Step 1: load and save process is start
+2023-08-10	21:51:29	successfully read raw_data\part_1.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_1.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_2.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_2.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_2.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_3.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:29	successfully read raw_data\part_4.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read raw_data\part_5.csv.gz from raw_data/ and shape of the data: (161, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	successfully read all the data from raw_data/ and shape of the data: (805, 2)
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	delete the directory if it is already exists artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	create raw data directory: artifacts/raw_data
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	data is stored in the artifacts/raw_data/data.csv directory
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:30	Step 1: Load and Save datset process is successfully completed
+
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	Step 2: Pre-processing step is start
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	handle the data by using forward-fill method
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:31	Separate the X and Y features from data.
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	apply tokenization on X and Y features
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	split the dataset into train, test and validation dataset
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	train data size: 70.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	test data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	validation data size: 15.0%
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	create dictionaries for train_dataset, validation_dataset, and test_dataset
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 2: Pre-processing steps are successfully completed
+
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:43	Step 3: Model Creation and Training (Fine-Tuning approach) process is start
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
+2023-08-10	21:51:49	load the model, model name: t5-small
