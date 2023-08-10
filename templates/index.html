@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../static/css/index.css"> -->
+    <link href="{{url_for('static', filename='css/index.css') }}" rel="stylesheet"/>
+    
+    <title>News Short</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+          <a href="#" class="logo">News Short</a>
+            <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+  
+          <div class="nav__link hide">
+            <a href="/">home</a>
+            <a href="#about">about</a>
+            <a href="/services">service</a>
+            <a href="#contact">contact</a>
+          </div>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="content">
+            <h1>Welcome to <span style="color: rgb(0, 0, 49);">News Short!</span></h1>
+            <p>
+                Tired of sifting through lengthy articles to get to the heart of the news? NewsShort has got you covered! Our cutting-edge AI technology carefully analyzes news articles from reputable sources and presents you with concise, easy-to-understand summaries. No more information overload just the key facts you need.
+            </p>
+            <p>
+                Customize your news feed according to your interests and preferences. Choose from various categories such as technology, politics, sports, entertainment, and more. With NewsShort, you'll only see the news that matters to you the most.
+            </p>
+            <p>
+                We value your time, and that's why NewsBite is designed to provide quick and efficient access to the latest happenings. Get a complete overview of a news story in seconds, allowing you to stay updated on the go.
+            </p>
+            <p>
+                Never miss a breaking story with our real-time notifications. Be the first to know about significant events as they unfold.
+            </p>
+            <div class="button-container">
+              <a href="/model_training" class="button">Model Training</a>
+              <a href="/news_summarizations" class="button">News Summarization</a>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service">
+        <div class="content content-2">
+            <h1>Service provide by <span style="color: rgb(0, 0, 49);">News Short!</span></h1>
+            <p>
+                <span style="color: rgb(1, 51, 20); font-weight: 800;">Model Training:</span>
+                Model training for news text summarization involves creating a deep learning model capable of summarizing news articles to provide concise and informative summaries. 
+            </p>
+            <p>
+                <span style="color: rgb(1, 51, 20); font-weight: 800;">Short Text-Summarization:</span>
+                The primary service of NewsShort is to provide short, concise summaries of news articles. Using advanced AI technology, the app analyzes lengthy news content from reputable sources and presents users with condensed versions of the information. This saves users valuable time while ensuring they stay informed about the latest news.
+            </p>
+            <p>
+                <span style="color: rgb(1, 51, 20); font-weight: 800;">Today's News Feed:</span>
+                NewsShort offers a current news feed feature. Users can choose from various categories such as technology, politics, sports, entertainment, business, health, and more. This ensures that users only see news relevant to their areas of interest.
+            </p>
+            <p>
+                <span style="color: rgb(1, 51, 20); font-weight: 800;">Time-Efficient News Consumption:</span>
+                With its quick and efficient summary format, NewsShort enables users to access a complete overview of news stories in just a few seconds. This time-efficient approach makes it easy for users to catch up on the latest happenings even when they have limited time.
+            </p>
+            <p>
+                <span style="color: rgb(1, 51, 20); font-weight: 800;">Global News Coverage:</span>
+                The app keeps users informed about both local and global events. By providing news from around the world, NewsShort allows users to stay updated on international affairs and gain insights into different cultures and perspectives.
+            </p>
+            <div class="button-container">
+              <a href="/services" class="button">Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="content content-3">
+            <h1>Contact with <span style="color: rgb(0, 0, 49);">Me!</span></h1>
+            
+            <div class="container">
+                <p style="padding: 20px; color: rgb(2, 133, 35);">
+                    {{msg}}
+                </p>
+                <form action="/" method="post">
+                    <div class="user-details">
+                        <!-- Full Name -->
+                        <div class="input-box">
+                            <label for="full_name">Full Name</label>
+                            <input type="text" name="full_name" id="full_name" placeholder="Enter your Full Name">
+                        </div>
+                        <!-- Email ID -->
+                        <div class="input-box">
+                            <label for="email_id">Email Id</label>
+                            <input type="email" name="email_id" id="email_id" placeholder="Enter your Email Id">
+                        </div>
+                        <!-- Phone Number -->
+                        <div class="input-box">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" min="10" max="10" placeholder="Enter your Phone Number">
+                        </div>
+                        <!-- Messages -->
+                        <div class="input-box">
+                            <label for="messages">Enter Message</label>
+                            <textarea name="messages" id="messages" cols="72" rows="2.5" placeholder="Enter your messages"></textarea>
+                        </div>
+                    </div>
+                    <div class="frm_button">
+                        <button type="submit">Send</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+
+    <!-- <script src="../static/js/index.js"></script> -->
+    <script src="{{url_for('static', filename='js/index.js') }}"></script>
+
+
+</body>
+</html>

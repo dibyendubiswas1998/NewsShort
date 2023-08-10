@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../static/css/model_training.css"> -->
+    <link href="{{url_for('static', filename='css/model_training.css') }}" rel="stylesheet"/>
+
+    <!-- <link rel="stylesheet" href="../static/css/index.css"> -->
+    <link href="{{url_for('static', filename='css/index.css') }}" rel="stylesheet"/>
+    <title>News Short</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="nav">
+          <a href="#" class="logo">News Short</a>
+            <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+  
+          <div class="nav__link hide">
+            <a href="/">home</a>
+            <a href="/">about</a>
+            <a href="/services">service</a>
+            <a href="/">contact</a>
+          </div>
+        </nav>
+    </header>
+
+    <!-- Custome Model Training: -->
+    <section id="traing_form">
+        <div class="content content-3">
+            <h1><span style="color: rgb(0, 0, 49);">Model Training:</span></h1>
+            <div class="container">
+                <div class="left">
+                    <p>
+                        <span style="color: rgb(49, 0, 0); font-weight: 600;">
+                            Performance Report: 
+                        </span>
+                        {{dct['score']}}
+                    </p>
+                </div>
+
+                <div class="right">
+                    <form action="/model_training" method="post">
+                        <div class="user-details">
+                            <!-- Dataset File Path -->
+                            <div class="input-box">
+                                <label for="dataset_path">Dataset File Path</label>
+                                <input type="text" name="dataset_path" id="dataset_path" placeholder="Enter your dataset file path,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp; {{dct['file_path']}}{{dct['data_format']}}">
+                            </div>
+                            <!-- Epochs -->
+                            <div class="input-box">
+                                <label for="epochs_custom">Number of Epochs</label>
+                                <input type="number" min="1" name="epochs_custom" id="epochs_custom" placeholder="Enter Number of Epochs, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp; {{dct['num_epochs']}}">
+                            </div>
+                            <!-- Model Name -->
+                            <div class="input-box">
+                                <label for="model_name_custom">Model Name</label>
+                                <input type="text" name="model_name_custom" id="model_name_custom" placeholder="Enter your Model Name, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default:&nbsp; {{dct['model_name']}}">
+                            </div>
+                        </div>
+                        <div class="frm_button">
+                            <button type="submit">Training</button>
+                        </div> 
+                    </form>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+    
+
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+
+    <!-- <script src="../static/js/index.js"></script> -->
+    <script src="{{url_for('static', filename='js/index.js') }}"></script>
+    
+</body>
+</html>

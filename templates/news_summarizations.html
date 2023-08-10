@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../static/css/news_summarization.css"> -->
+    <link href="{{url_for('static', filename='css/news_summarization.css') }}" rel="stylesheet"/>
+
+    <!-- <link rel="stylesheet" href="../static/css/index.css"> -->
+    <link href="{{url_for('static', filename='css/index.css') }}" rel="stylesheet"/>
+    <title>News Short</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav class="nav">
+          <a href="#" class="logo">News Short</a>
+            <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+  
+          <div class="nav__link hide">
+            <a href="/">home</a>
+            <a href="/">about</a>
+            <a href="/services">service</a>
+            <a href="/">contact</a>
+          </div>
+        </nav>
+    </header>
+    
+    <!-- News Summarization -->
+    <section id="news_summarization_input">
+        <div class="content content-3">
+            <h1><span style="color: rgb(0, 0, 49);">News Summarization:</span></h1>
+            <div class="container">
+                <form action="" method="post">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <label for="length">Length of Sentences</label>
+                            <input type="number" name="length" min="100" max="350" id="length" placeholder="Enter your Length of Sentences you want">
+                        </div>
+                        <!-- Messages -->
+                        <div class="input-box">
+                            <label for="messages">Input Text</label>
+                            <textarea name="messages" id="messages" cols="72" rows="2.5" placeholder="Enter your News"></textarea>
+                        </div>
+                    </div>
+                    <div class="frm_button">
+                        <button type="submit">Summarizations</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>        
+    </section>
+
+    <section id="news_summarization_output">
+        <div class="content">
+            <h1><span style="color: rgb(1, 104, 41);">Summarize Text:</span></h1>
+            <div class="container">
+                <p>
+                    {{summary}}
+                </p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+    </footer>
+
+
+    <!-- <script src="../static/js/index.js"></script> -->
+    <script src="{{url_for('static', filename='js/index.js') }}"></script>
+    
+</body>
+</html>
