@@ -79,7 +79,7 @@ a {
 .nav__link {
     position: fixed;
     width: 100%;
-    top: 15.2%;
+    top: 12%;
     left: 0px;
     background-color: rgb(0, 18, 24);
     animation: fadeInDown 1s ease;
@@ -258,6 +258,11 @@ form .frm_button button:hover{
   
     .hamburger {
       display: none;
+    }
+}
+@media screen and (max-width: 305px){
+    .nav__link {
+      top: 17%;
     }
 }
 
