@@ -26,6 +26,20 @@ def Home():
 
 
 
+
+@app.route('/services')
+def Services():
+    """
+    This function handles the '/services' endpoint and defines its behavior.
+    
+    Returns:
+        str: The rendered HTML template.
+    """
+    return render_template("services.html")
+
+
+
+
 @app.route("/model_training", methods=['POST', 'GET'])
 def model_training():
     """
