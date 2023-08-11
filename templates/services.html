@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/index.css">
+    <!-- <link rel="stylesheet" href="../static/css/index.css"> -->
     <link href="{{url_for('static', filename='css/index.css') }}" rel="stylesheet"/>
 
     <!-- <link rel="stylesheet" href="../static/css/services.css"> -->
@@ -39,17 +39,20 @@
                 <div class="button-container">
                     <a href="/model_training" class="button">Model Training</a>
                     <a href="/news_summarizations" class="button">News Summarization</a>
-                    <a href="#" class="button">Today's News</a>
-                    <a href="#" class="button">Global News Coverage</a>
-                    <a href="#" class="button">Time-Efficient News Consumption</a>
+                    <a href="/domestic" class="button" id="button1" onclick="showResult('button1')">Domestic News Coverage</a>
+                    <a href="/geopolitical" class="button" id="button1" onclick="showResult('button1')">Global News Coverage</a>
+                    <!-- <a href="#" class="button">Time-Efficient News Consumption</a> -->
                 </div>
 
                 <!-- All Services one by one -->
                 <div class="services">
-                    <span>Services</span>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil amet architecto incidunt voluptatum animi, ducimus velit ipsa delectus repellendus sed quo possimus quae eaque harum voluptates magnam voluptas vitae excepturi!
-                    </p>
+                    
+                    {% for article in news %}
+                        <div class="article">
+                            <h3 style="color: rgb(5, 5, 151); letter-spacing: 0.5px;">{{ article.title }}</h3>
+                            <p style="color: rgb(39, 1, 1);">{{ article.summary }}</p>
+                        </div><br>
+                    {% endfor %}
 
                 </div>
             </div>  
@@ -64,6 +67,17 @@
     <footer class="footer">
         <p>&copy; 2023 Your Company. All rights reserved.</p>
     </footer>
+    <script>
+        function showResult(buttonId) {
+            var resultDiv = document.getElementById("result");
+
+            if (buttonId === "button1") {
+                resultDiv.innerHTML = "Result for Button 1";
+            } else if (buttonId === "button2") {
+                resultDiv.innerHTML = "Result for Button 2";
+            }
+        }
+    </script>
     
 </body>
 </html>
