@@ -75,7 +75,7 @@ def training(raw_directory_path=None, model_name=None, num_train_epochs=None, wa
         log(file_object=training_log_file, log_message=f"Step 2: Pre-processing steps are successfully completed\n") # logs the details of the process completation 
        
 
-        # """Step 3: Model Creation and Training (Fine-Tuning approach)"""
+        """Step 3: Model Creation and Training (Fine-Tuning approach)"""
         model_training = ModelCreationTraining()
         log(file_object=training_log_file, log_message=f"Step 3: Model Creation and Training (Fine-Tuning approach) process is start") # logs the details about Step 3
 
@@ -100,7 +100,7 @@ def training(raw_directory_path=None, model_name=None, num_train_epochs=None, wa
         log(file_object=training_log_file, log_message=f"Step 3: Model Creation and Training (Fine-Tuning approach) process is successfully completed\n") # logs the details of the process completation 
 
 
-        # """Step 4: Model Evaluation"""
+        """Step 4: Model Evaluation"""
         evaluation = ModelEvaluation()
         log(file_object=training_log_file, log_message=f"Step 4: Model Evaluation process is start") # logs the details about Step 4
 
