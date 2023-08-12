@@ -20,39 +20,40 @@ NewsShort is a web application designed to provide text summarization services. 
     $ git clone https://github.com/dibyendubiswas1998/NewsShort.git 
     ```
 
-<br><br>
+<br>
+
 * **Install all the dependencies:**<br>
     ```git 
     pip install -r requirements.txt
     ```
 
-<br><br>
+<br>
 
 * **Move to the project directory:**<br>
     ```git
     cd NewsShort
     ```
-<br><br>
+<br>
 
 * **Install Git LFS:**<br>
     ```git 
     $ git lfs install
     ```
 
-<br><br>
+<br>
 
 * **Fetch LFS Objects:**<br>
 
     ```git
     $ git lfs fetch
     ```
-<br><br>
+<br>
 
 * **Checkout LFS Files:**<br>
     ```git
     $ git lfs checkout
     ```
-<br><br>
+<br>
 
 * **Run the app:**<br>
     ```git
@@ -101,8 +102,10 @@ NewsShort is a web application designed to provide text summarization services. 
 
 <br><br><br>
 If you have any questions or suggestions, feel free to reach out to me at:<br>
+
 * https://www.linkedin.com/in/dibyendubiswas1998/
 <br>
+
 * dibyendubiswas1998 (Discord)
 
 
