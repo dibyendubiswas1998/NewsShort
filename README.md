@@ -19,14 +19,17 @@ NewsShort is a web application designed to provide text summarization services. 
     ```git
     $ git clone https://github.com/dibyendubiswas1998/NewsShort.git 
     ```
-
 <br>
+
+* **Create Conda Evvironment:**
+    ```git
+    $ conda create --name <env_name>
+    ```
 
 * **Install all the dependencies:**<br>
     ```git 
     pip install -r requirements.txt
     ```
-
 <br>
 
 * **Move to the project directory:**<br>
@@ -39,7 +42,6 @@ NewsShort is a web application designed to provide text summarization services. 
     ```git 
     $ git lfs install
     ```
-
 <br>
 
 * **Fetch LFS Objects:**<br>
