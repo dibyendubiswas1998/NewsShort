@@ -38,5 +38,6 @@ datasets
 ensure
 git+https://github.com/huggingface/accelerate
 rouge_score
-
 sendgrid
+bs4
+beautifulsoup4
