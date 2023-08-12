@@ -70,9 +70,6 @@ NewsShort is a web application designed to provide text summarization services. 
 * View the generated summary in the output section.
 
 
-## Demo:
-
-
 
 ## Technologies Used:
 * Python
