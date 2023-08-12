@@ -21,7 +21,7 @@ NewsShort is a web application designed to provide text summarization services. 
     ```
 <br>
 
-* **Create Conda Evvironment:**
+* **Create Conda Environment:**
     ```git
     $ conda create --name <env_name>
     ```
