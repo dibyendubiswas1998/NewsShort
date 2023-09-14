@@ -16,7 +16,7 @@ list_of_files = [
     "artifacts/model/summarizer", # artifacts/model/summarizer directory
     
 
-    "artifacts/report/performance_report.json", # artifacts/report directory for performance report
+    "artifacts/report/performace_report.json", # artifacts/report directory for performance report
     "logs/trainings_logs.txt", # logs/trainings_logs.txt file
     "logs/predictions_logs.txt", # logs/predictions_logs.txt file
 
@@ -51,6 +51,9 @@ list_of_files = [
     "setup.py", # setup.py file
     "app.py", # app.py file
     "requirements.txt", # requirements.txt file
+
+    "Dockerfile", # create Dockerfile
+    ".github/workflows/main.yaml" # create CI/CD pipeline
 ]
 
 
