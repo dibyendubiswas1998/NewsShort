@@ -43,6 +43,8 @@ jobs:
           docker build . -t dibyendubiswas1998/news_short_app
       
       - name: Publish Docker Image
+        env:
+          DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_ACCESS }}
         run: |
+          echo "$DOCKER_HUB_TOKEN" | docker login -u dibyendubiswas1998 --password-stdin
           docker push dibyendubiswas1998/news_short_app
-  
