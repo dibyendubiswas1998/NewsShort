@@ -40,7 +40,7 @@ jobs:
       
       - name: Build Docker Image
         run: |
-          docker build -t dibyendubiswas1998/news_short_app
+          docker build . -t dibyendubiswas1998/news_short_app
       
       - name: Publish Docker Image
         run: |
