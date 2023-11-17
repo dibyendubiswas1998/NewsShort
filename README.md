@@ -14,7 +14,7 @@ NewsShort is a web application designed to provide text summarization services. 
 * **Global News Coverage:** The app keeps users informed about both local and global events. By providing news from around the world, NewsShort allows users to stay updated on international affairs and gain insights into different cultures and perspectives.
 
 
-## Installation:
+## How to Run --> Manually:
 * **Clone from the repository:**<br>
     ```git
     $ git clone https://github.com/dibyendubiswas1998/NewsShort.git 
@@ -64,10 +64,15 @@ NewsShort is a web application designed to provide text summarization services. 
     ```
 <br>
 
+## How to Run using Docker Image:
+```cmd
+   docker pull dibyendubiswas1998/document_tagging
+   docker run -p 8080:8080 dibyendubiswas1998/document_tagging
+```
 
 ## Usage:
 * Open your web browser and navigate to the app's URL.
-* Input the text you want to summarize in the provided textarea.
+* Input the text you want to summarize in the provided text area.
 * Adjust the summarization length if desired.
 * Click the "Summarize" button to generate a summary.
 * View the generated summary in the output section.
